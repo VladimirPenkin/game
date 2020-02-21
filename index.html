@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+</head>
+<script src="main.js">
+	
+</script>
+<body>
+	<h3 style="color:green">Сыграем в камень, ножницы, бумага?</h3>
+	<table border = "1">
+		<tr>
+			<td>Твой выбор: </td>
+			<td align="center"><select id="human"><option>камень</option>
+				<option>ножницы</option>
+				<option>бумага</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Выбор компьютера: </td>
+			<td id="ps" align="center"></td>
+		</tr>
+		<tr>
+			<td>Результат игры: </button></td>
+			<td id="result" width="150" align="center"></td>
+		</tr>
+	</table>
+	<br>
+	<button onclick="battle()">Играть</button>
+</body>
+</html>	
